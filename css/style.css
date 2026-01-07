@@ -1,0 +1,91 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #121212;
+    color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Headings */
+  h1 {
+    color: #ffcc00;
+    font-size: 2.5em;
+    margin-top: 20px;
+  }
+  
+  h2 {
+    color: #00bcd4;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  /* Paragraphs */
+  p {
+    color: #e0e0e0;
+    font-size: 1em;
+    line-height: 1.5;
+    padding: 10px 20px;
+    text-align: justify;
+  }
+  
+  /* Highlight important text */
+  p em {
+    color: #ff4081;
+    font-style: italic;
+  }
+  
+  p b {
+    color: #ffa726;
+  }
+  
+  /* Navigation links */
+  a {
+    color: #90caf9;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #ffeb3b;
+    text-decoration: underline;
+  }
+  
+  /* Image styling */
+  .article-pics {
+    border-radius: 10px;
+    margin: 10px;
+    width: 80%;
+  }
+  
+  /* Articles */
+  article {
+    background-color: #1e1e1e;
+    border: 2px solid #333;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+  }
+  
+  /* Buttons (links with more-button class) */
+  .more-button {
+    display: inline-block;
+    background-color: #2196f3;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .more-button:hover {
+    background-color: #1769aa;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #0d0d0d;
+    padding: 15px;
+    font-size: 0.9em;
+    color: #999;
+  }
+  
